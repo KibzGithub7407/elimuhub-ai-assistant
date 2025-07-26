@@ -36,3 +36,26 @@ textarea {
 button {
   margin-top: 10px;
 }
+#chat-container {
+  margin-top: 20px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#chat-log {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.user-msg, .ai-msg {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
+.user-msg {
+  background: #e3f2fd;
+}
+.ai-msg {
+  background: #fce4ec;
+}
