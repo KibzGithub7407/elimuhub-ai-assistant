@@ -1,0 +1,12 @@
+{
+  "prompts": [
+    {
+      "title": "KCSE Chemistry - Electrolysis",
+      "text": "Create a KCSE Chemistry structured question on Electrolysis with marking scheme."
+    },
+    {
+      "title": "KCSE English - Essay Practice",
+      "text": "Write a KCSE-level English essay on the topic: 'Education is the key to success'."
+    }
+  ]
+}
