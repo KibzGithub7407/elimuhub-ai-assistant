@@ -8,12 +8,18 @@
 </head>
 <body>
   <h1>🤖 Elimuhub AI Prompt Assistant</h1>
+
+  <nav class="nav-links">
+    <a href="chat.html">💬 Open AI Chat Assistant</a>
+  </nav>
+
   <div class="tabs">
     <button onclick="loadPrompts('kcpe')">📘 KCPE</button>
     <button onclick="loadPrompts('kcse')">📗 KCSE</button>
     <button onclick="loadPrompts('coding')">💻 Coding</button>
     <button onclick="loadPrompts('social')">📱 Social Media</button>
   </div>
+
   <div id="promptList"></div>
 
   <textarea id="output" placeholder="Your generated prompt will appear here..."></textarea>
