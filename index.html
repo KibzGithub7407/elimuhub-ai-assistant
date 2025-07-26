@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elimuhub AI Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🤖 Elimuhub AI Prompt Assistant</h1>
+  <div class="tabs">
+    <button onclick="loadPrompts('kcpe')">📘 KCPE</button>
+    <button onclick="loadPrompts('kcse')">📗 KCSE</button>
+    <button onclick="loadPrompts('coding')">💻 Coding</button>
+    <button onclick="loadPrompts('social')">📱 Social Media</button>
+  </div>
+  <div id="promptList"></div>
+
+  <textarea id="output" placeholder="Your generated prompt will appear here..."></textarea>
+  <button onclick="copyToClipboard()">📋 Copy Prompt</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
