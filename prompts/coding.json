@@ -1,0 +1,12 @@
+{
+  "prompts": [
+    {
+      "title": "Fix Python Code",
+      "text": "Fix this Python code that throws a syntax error: def add(a, b) print(a + b)"
+    },
+    {
+      "title": "Write HTML Form",
+      "text": "Generate an HTML form with name, email, subject, and message fields. Include basic validation."
+    }
+  ]
+}
